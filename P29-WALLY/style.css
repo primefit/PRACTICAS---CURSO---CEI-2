@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+}
+
+.main__container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor:crosshair;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    letter-spacing: 2px;
+}
+
+.wally__border{
+    margin-top: 20px;
+    border:6px solid red;
+}
+
+.wally__poster{
+    max-width:1000px;
+    filter:saturate(0%);
+    position:relative;
+
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+
+.wally{
+    width:1.4%;
+    height:3.3%;
+    background-color: #008000;
+    position:absolute;
+    left:62.5%;
+    bottom:12%;
+
+}

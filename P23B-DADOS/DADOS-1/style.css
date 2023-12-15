@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #0000ff;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+    
+    
+}
+
+.dado{
+    display:flex;
+    justify-content: center;
+    width:229px;
+    padding:9%;
+    background-color: #ffffff;
+    border-radius: 8px;;
+}
+
+.dado__item{
+
+   
+    padding:34px;
+    background-color: #000000;
+    border-radius: 50%;
+
+    
+}

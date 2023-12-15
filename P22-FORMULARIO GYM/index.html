@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <form action="form_receive.php" name="usuario_vp" enctype="application/x-www-form-urlencoded" method="post">
+        
+        <label for="nameInput">Introduce tu nombre</label>
+        <input type="text" id="nameInput" name="user_name" size="20" maxlength="9" required>
+
+        <label for="ApellidosInput">Introduce tu apellido</label>
+        <input type="text" id="ApellidosInput" name="user_surname" size="10"  maxlength="9" required>
+
+        <fieldset>
+            <label for="AgeInput"> Soy mayor de 18</label>
+                <input type="checkbox" name="user_checkbox" id="AgeInput">
+                
+                <label for="">Sin problemas de corazon</label>
+                <input type="checkbox" name="user" id="HealthInput">
+
+                <label for="">En pleno uso de mis facultades mentales</label>
+                <input type="checkbox" name="user" id="MenthalInput">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="sexManInput">Hombre</label>
+                <input type="radio" name="user_sex" id="sexManInput">
+
+                <label for="sexWomanInput">Mujer</label>
+                <input type="radio" name="user_sex" id="sexWomanInput">
+
+                <label for="sexOtherInput">Otro</label>
+                <input type="radio" name="user_sex" id="sexOtherInput">
+        </fieldset>
+
+        <fieldset>
+            <label for="SportTypeInput">Elige tu deporte</label>
+            <select name="Type_Sport" id="SportTypeInput">
+
+                <option value="Crossfit">
+                    Crossfit
+                </option>
+                <option value="Spinning"> 
+                    Spinning
+                </option>
+                <option value="Kung fu">
+                    Kung fu
+                </option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+
+            <label for="commentsInput">Comentarios</label>
+            <textarea name="user_comments" id="commentsInput" placeholder="Comentarios"></textarea>
+
+        </fieldset>
+
+        <fieldset>
+
+            <input type="submit">   
+
+        </fieldset> 
+
+        <fieldset>
+            <label for="text">Contraseña</label>
+            <input type="password">
+        </fieldset>
+        
+</body>
+</html>

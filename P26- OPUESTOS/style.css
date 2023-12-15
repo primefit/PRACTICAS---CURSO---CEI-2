@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: #808080;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+.block__solidaridad{
+    width: 5px;
+    height: 113px;
+    padding: 14%;
+    background-color: #ffffff;
+    color: #0059ff;
+    position: relative;
+}
+
+.text{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position:absolute;
+    top:50%;
+    left:20%;
+}
+
+.block__text{
+    width: 5px;
+    height: 113px;
+    padding: 14%;
+    background-color: #0059ff;
+    color: #ffffff;
+    display:flex;
+    justify-content: center;
+
+}
+
+.text--2{
+   font-size: 25px;
+}
+
+.subcontainer{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.block__black{
+
+    margin-top: 40px;
+    width:100px;
+    height:100px;
+    padding:14%;
+    background-color: #000000;
+    color:#ffffff;
+    position:relative;
+
+}
+
+.text__black{
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    top:50%;
+    left:36%;
+    
+}
+
+.block__white{
+    margin-top: 40px;
+    width:100px;
+    height:100px;
+    padding:14%;
+    background-color:#ffffff;
+    color:#000000;
+    position:relative;
+}
+
+.text__white{
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    top:50%;
+    left:36%;
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        flex-direction: column;
+        display: none;
+    }
+    .subcontainer {
+        display: flex;
+    }
+    
+}
+

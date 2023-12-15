@@ -1,0 +1,50 @@
+
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    perspective: 1000px;
+    perspective-origin: 50% - 50%;
+}
+
+.cubo{
+    perspective: 900px;
+    height:200px;
+    width:200px;
+    transform-style: preserve-3d;
+    
+}
+
+.cube__side{
+    
+    position: absolute;
+   
+}
+
+.cube__side--1{
+    background-color: red;
+    width:200px;
+    height:200px;
+    transform: (309deg) translate(-106px);
+
+
+}
+
+.cube__side--2{
+    background-color: green;
+    width:200px;
+    height:200px;
+    transform:rotateY(20deg) translate(20px);
+    
+   
+}
+
+.cube__side--3{
+    background-color: blue;
+    width:200px;
+    height:200px;
+    transform:rotateY(29deg) translate(96px);
+    
+}
